@@ -1,0 +1,5 @@
+编译：
+# ./compile.sh
+
+测试：
+python3 test.py
