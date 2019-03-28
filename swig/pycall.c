@@ -22,3 +22,19 @@ int divide(int a, int b)
     return a/b;
 }
 
+typedef struct Student
+{  
+    char* name;  
+    int age;  
+}Student;  
+
+Student * setinfo(Student *q)
+{
+    Student * p = (Student *)malloc(sizeof(Student));   
+    strcpy(p->name, q->name);  
+    p->age = q->age;  
+    printf("name:%s\n", p->name);
+    printf("age:%d\n", p->age);
+
+    return p;   
+}
