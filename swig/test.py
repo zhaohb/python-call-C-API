@@ -8,5 +8,7 @@ print(pycall.multiple(4,2))
 print(pycall.divide(10,2))
 
 a=pycall.Student('zhaohb', 99)
+print(a.age)
 b=pycall.setinfo(a)
+print(b.age)
 print(b)

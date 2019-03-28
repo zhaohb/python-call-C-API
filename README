@@ -1,10 +1,8 @@
 目录：
 
 lib：
-   该目录主要是通过ctypes模块在python中调用C的接口，前提需要把C接口封
-   装动态so库
+   该目录主要是通过ctypes模块在python中调用C的接口，前提需要把C接口封装动态so库
 
 swig：
-   主要通过swig把C的接口封装成python的模块，可以直接通过import的形式
-   使用该模块
+   主要通过swig把C的接口封装成python的模块，可以直接通过import的形式使用该模块
 
